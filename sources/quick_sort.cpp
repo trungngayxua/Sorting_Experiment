@@ -35,6 +35,8 @@ void quickSort(vector<int>& arr, int low, int high) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
+    freopen("input.txt", "r", stdin);
     
     for (int test = 0; test < 10; test++) {
         vector<int> arr(1000000);
