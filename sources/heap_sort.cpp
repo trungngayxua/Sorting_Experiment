@@ -35,6 +35,8 @@ void heapSort(vector<int>& arr) {
 }
 
 int main() {
+    freopen("input.txt", "r", stdin);
+    
     for (int test = 0; test < 10; test++) {
         vector<int> arr(1'000'000);
         for (int i = 0; i < 1'000'000; i++) cin >> arr[i];
